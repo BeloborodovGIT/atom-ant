@@ -24,6 +24,7 @@ def count_accessible_cells(start_x, start_y):
     return len(visited)
 
 
-start_x, start_y = 1000, 1000
-result = count_accessible_cells(start_x, start_y)
-print(result)
+if __name__ == "__main__":
+    start_x, start_y = 1000, 1000
+    result = count_accessible_cells(start_x, start_y)
+    print(result)
